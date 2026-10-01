@@ -21,11 +21,11 @@ public/
 
 ## Cloudflare Pages
 
-预定访问地址：<https://largebatata.pages.dev>。以 Cloudflare 实际分配的地址为准。
+正式访问地址：<https://largebatata.pages.dev>。已于 2026-10-01 部署到 Cloudflare Pages。
 
 | 设置 | 值 |
 | --- | --- |
-| 项目名称 | `largebatata`（优先） |
+| 项目名称 | `largebatata` |
 | Git 仓库 | `largebatata/largebatata-site` |
 | 生产分支 | `main` |
 | Framework preset | `None` |
@@ -48,7 +48,7 @@ public/
 
 ## 成本与以后绑定域名
 
-当前方案只使用 GitHub 公开仓库和 Cloudflare Pages 免费计划，不购买域名或套餐，预期固定成本为每月 0、每年 0。免费服务条款及额度以供应商当时公布为准。
+当前只使用 GitHub 公开仓库和 Cloudflare Pages 免费计划，固定成本为每月 0、每年 0。未购买域名或套餐。免费服务条款及额度以供应商当时公布为准。
 
 以后确认购买 `largebatata.com` 后，将域名添加到 Pages 项目的 Custom domains。根域名需先作为 Cloudflare zone 添加并将注册商的 nameservers 改为 Cloudflare 分配的值，然后通过 Pages 完成域名关联和 DNS 设置。待 HTTPS 证书生效后验证访问；按需要配置 www 跳转并更新网站元数据。域名注册和续费是届时新增的成本，本阶段不执行购买或 DNS 变更。
 
