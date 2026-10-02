@@ -46,12 +46,6 @@ public/
 - 为所有页面引用同一份样式。无需安装 npm 包；可使用任意本地静态 HTTP 服务器预览 `public/`。
 - 提交到 main 后，在 Cloudflare 确认部署成功，再检查正式地址。
 
-## 成本与以后绑定域名
-
-当前只使用 GitHub 公开仓库和 Cloudflare Pages 免费计划，固定成本为每月 0、每年 0。未购买域名或套餐。免费服务条款及额度以供应商当时公布为准。
-
-以后确认购买 `largebatata.com` 后，将域名添加到 Pages 项目的 Custom domains。根域名需先作为 Cloudflare zone 添加并将注册商的 nameservers 改为 Cloudflare 分配的值，然后通过 Pages 完成域名关联和 DNS 设置。待 HTTPS 证书生效后验证访问；按需要配置 www 跳转并更新网站元数据。域名注册和续费是届时新增的成本，本阶段不执行购买或 DNS 变更。
-
 官方文档：
 - <https://developers.cloudflare.com/pages/framework-guides/deploy-anything/>
 - <https://developers.cloudflare.com/pages/configuration/custom-domains/>
